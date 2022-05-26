@@ -1,27 +1,26 @@
+:root {
+}
 body {
   font-family: 'Roboto', sans-serif;
 }
 
-.company-logo {
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
-.logo-color {
+.list {
+  list-style: none;
 }
 
-.navigation {
+.link {
+  text-decoration: none;
 }
-
-.navigation-list {
-}
-
-.navigation-item {
-}
-
-.contact-list {
-}
-
-/* font-family: 'Montserrat',
-sans-serif;
-font-family: 'Raleway',
-sans-serif;
- */
