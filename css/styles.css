@@ -63,6 +63,9 @@ header .company-logo .secondary-color {
 .nav a:focus {
   color: var(--accent-color);
 }
+.nav-list-item .link.current {
+  color: var(--accent-color);
+}
 .contact-list a:link {
   font-weight: 500;
   font-size: 14px;
@@ -90,6 +93,7 @@ header .company-logo .secondary-color {
   color: #ffffff;
 }
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -100,6 +104,12 @@ header .company-logo .secondary-color {
   color: #ffffff;
   cursor: pointer;
   background-color: var(--accent-color);
+}
+.hero-btn:hover {
+  color: 188CE8;
+}
+.hero-btn:focus {
+  color: 188CE8;
 }
 /* ---------------- FEATURES ---------------- */
 .features-title {
@@ -182,6 +192,7 @@ footer .company-logo .secondary-color {
 }
 /* ---------------- PORTFOLIO PAGE---------------- */
 .filter-item {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
