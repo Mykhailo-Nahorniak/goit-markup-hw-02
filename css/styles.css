@@ -51,15 +51,12 @@ header .company-logo .secondary-color {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.nav a.link:link {
-  color: #212121;
-}
+.nav a.link:link,
 .nav a:visited {
   color: #212121;
 }
-.nav a:hover {
-  color: var(--accent-color);
-}
+
+.nav a:hover,
 .nav a:focus {
   color: var(--accent-color);
 }
@@ -73,9 +70,7 @@ header .company-logo .secondary-color {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-.contact-list a:hover {
-  color: var(--accent-color);
-}
+.contact-list a:hover,
 .contact-list a:focus {
   color: var(--accent-color);
 }
@@ -105,9 +100,7 @@ header .company-logo .secondary-color {
   cursor: pointer;
   background-color: var(--accent-color);
 }
-.hero-btn:hover {
-  color: 188CE8;
-}
+.hero-btn:hover,
 .hero-btn:focus {
   color: 188CE8;
 }
@@ -184,9 +177,7 @@ footer .company-logo .secondary-color {
 .address a:visited {
   color: #212121;
 }
-.address a:hover {
-  color: var(--accent-color);
-}
+.address a:hover,
 .address a:focus {
   color: var(--accent-color);
 }
@@ -201,10 +192,7 @@ footer .company-logo .secondary-color {
   cursor: pointer;
   background-color: #f5f4fa;
 }
-.filter-item[type='button']:hover {
-  background-color: var(--accent-color);
-  color: #ffffff;
-}
+.filter-item[type='button']:hover,
 .filter-item[type='button']:focus {
   background-color: var(--accent-color);
   color: #ffffff;
