@@ -33,8 +33,6 @@ body {
   text-decoration: none;
 }
 /* ---------------- HEADER ---------------- */
-.header {
-}
 .company-logo {
   font-family: 'Raleway';
   font-weight: 700;
@@ -101,12 +99,6 @@ header .company-logo .secondary-color {
   background-color: var(--accent-color);
 }
 /* ---------------- FEATURES ---------------- */
-.features {
-}
-.features-list {
-}
-.features-item {
-}
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -122,8 +114,6 @@ header .company-logo .secondary-color {
   letter-spacing: 0.03em;
 }
 /* ---------------- GALLERY ---------------- */
-.gallery {
-}
 .gallery-title {
   font-weight: 700;
   font-size: 36px;
@@ -131,10 +121,6 @@ header .company-logo .secondary-color {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
-}
-.gallery-list {
-}
-.gallery-item {
 }
 /* ---------------- TEAM ---------------- */
 .team {
@@ -147,10 +133,6 @@ header .company-logo .secondary-color {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
-}
-.team-list {
-}
-.team-item {
 }
 .team-title {
   font-weight: 500;
@@ -196,12 +178,6 @@ footer .company-logo .secondary-color {
   color: var(--accent-color);
 }
 /* ---------------- PORTFOLIO PAGE---------------- */
-.hero-btn {
-}
-.portfolio {
-}
-.filter-list {
-}
 .filter-item {
   font-weight: 500;
   font-size: 16px;
@@ -218,13 +194,6 @@ footer .company-logo .secondary-color {
 .filter-item[type='button']:focus {
   background-color: var(--accent-color);
   color: #ffffff;
-}
-
-.portfolio-list {
-}
-.portfolio-list {
-}
-.portfolio-item {
 }
 .portfolio-item-header {
   font-weight: 700;
