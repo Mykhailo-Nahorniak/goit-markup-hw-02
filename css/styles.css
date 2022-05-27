@@ -34,7 +34,7 @@ body {
 }
 /* ---------------- HEADER ---------------- */
 .company-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -44,18 +44,15 @@ body {
 header .company-logo .secondary-color {
   color: var(--header-secondary-logo-color);
 }
-.nav-list {
+.nav-list,
+.nav a.link:link,
+.nav a:visited {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.nav a.link:link,
-.nav a:visited {
-  color: #212121;
-}
-
 .nav a:hover,
 .nav a:focus {
   color: var(--accent-color);
@@ -161,7 +158,8 @@ header .company-logo .secondary-color {
 footer .company-logo .secondary-color {
   color: var(--footer-secondary-logo-color);
 }
-.address {
+.address,
+.address a:link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -169,9 +167,6 @@ footer .company-logo .secondary-color {
   color: #ffffff;
 }
 .address a:link {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--footer-contact-color);
 }
 .address a:visited {
@@ -192,8 +187,8 @@ footer .company-logo .secondary-color {
   cursor: pointer;
   background-color: #f5f4fa;
 }
-.filter-item[type='button']:hover,
-.filter-item[type='button']:focus {
+.filter-item:hover,
+.filter-item:focus {
   background-color: var(--accent-color);
   color: #ffffff;
 }
