@@ -51,6 +51,9 @@ header .company-logo .secondary-color {
   letter-spacing: 0.02em;
   color: #212121;
 }
+.nav a:link {
+  color: #212121;
+}
 .nav a:visited {
   color: #212121;
 }
