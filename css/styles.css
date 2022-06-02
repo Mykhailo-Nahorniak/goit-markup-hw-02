@@ -39,36 +39,32 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
   color: var(--logo-color);
 }
 header .company-logo .secondary-color {
   color: var(--header-secondary-logo-color);
 }
-.nav-list,
-.nav a.link:link,
-.nav a:visited {
+.link,
+.link:visited {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.nav a:hover,
-.nav a:focus {
-  color: var(--accent-color);
-}
-.nav-list-item .link.current {
-  color: var(--accent-color);
-}
-.contact-list a:link {
+.contact-list-item .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-.contact-list a:hover,
-.contact-list a:focus {
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.link.current {
   color: var(--accent-color);
 }
 /* ---------------- HERO ---------------- */
@@ -151,11 +147,14 @@ header .company-logo .secondary-color {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.team-item {
+  background-color: #ffffff;
+}
 /* ---------------- FOOTER ---------------- */
 .footer {
   background-color: var(--dark-bg-color);
 }
-footer .company-logo .secondary-color {
+.company-logo .secondary-color {
   color: var(--footer-secondary-logo-color);
 }
 .address,
@@ -166,18 +165,16 @@ footer .company-logo .secondary-color {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.address a:link {
+.address .link:link {
   color: var(--footer-contact-color);
 }
-.address a:visited {
-  color: #212121;
-}
-.address a:hover,
-.address a:focus {
+
+.address .link:hover,
+.address .link:focus {
   color: var(--accent-color);
 }
 /* ---------------- PORTFOLIO PAGE---------------- */
-.filter-item {
+.filter-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -187,11 +184,16 @@ footer .company-logo .secondary-color {
   cursor: pointer;
   background-color: #f5f4fa;
 }
-.filter-item:hover,
-.filter-item:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   background-color: var(--accent-color);
   color: #ffffff;
 }
+.current-btn {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
 .portfolio-item-header {
   font-weight: 700;
   font-size: 18px;
